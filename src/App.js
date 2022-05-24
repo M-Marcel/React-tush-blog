@@ -1,10 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
+  // const title = 'Welcome to the new blog';
+  // const link = 'https://google.com';
+
   return (
     <div className="App">
-      <header className="App-header">
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
+
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +27,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
