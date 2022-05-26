@@ -1,3 +1,7 @@
+# About Project
+
+This is a Simple React blog project that was created as part of a tutorial series to teach Lanepact Apprentices how to use React.Js as a JavaScript Framework.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
